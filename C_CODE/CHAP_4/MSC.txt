@@ -1,0 +1,47 @@
+Mastery Skills Check - Chapter 4 - 6.5/8
+-------------------------------------------------------MY ANSWERS----------------------
+
+1) Data-type modifiers modify the size/nature of the type of data to be stored inside a variable. There are 4: unsigned, long, short, signed
+
+2) 	Unsigned - 20U
+	Long - 129L
+	Long Double - 45.0L
+
+3) float balance = 0.0;
+
+4) have no hecking idea (in fact no idea what the question is even asking.)
+
+5) A signed integer uses up one bit of its allocated data to describe the sign, whereas an unsigned integer does not. The end result is that while both the integers have the same length of range(can describe the same number of numbers), the range in unsigned integer starts from 0 to (2^n -1), whereas in signed integers, the range is -(2^(n-1) - 1) to (2^(n-1) - 1). This is best explained with an example
+
+	For 16 bits, unsigned int --> 0 - 65535
+		     signed int --> -32767 - 32767
+
+6) * When the same variable is required for use across many functions, and we do not want its value to be lost upon exit of the function
+
+7) Done in MSC-7.C and MSC-7.exe
+
+8) A type cast temporarily changes the data type of the expression/variable/constant it is appended to.
+	Example:
+
+	int a = 7;
+	printf("%f", sqrt((double)7));
+
+----------------------------------CHECKING FROM ANSWERS AT THE BACK OF THE BOOK--------------------
+
+1) ........... uhmmmmmmmm I guess it is somewhat correct. 4 data-type modifiers are also correct.
+
+2) All 3 correct.
+
+3) Correcto.
+
+4) Oh so that's what automatic integral promotion means ...smh
+
+5) Book describes a different answer, but both are in essence, the same. Somewhat correct.
+
+6) Correct.
+
+7) Theoretically, it is functionally similar to Book answer. But the outputs of the two programs are wildly different. The main reason for this is
+
+	- `(num*1468)` is a number that can grow very large, and in the case of the book answer, it overflows the num variable. This creates negative outputs, which is not present in MSC-7.exe, as it accounted for that and used `unsigned long`. If calculated in real-world, `(num % 1468) % 467` would never have a negative answer. So we must assume in this case that RSC-7 has not done an error, but has attempted to get closer to an actual real-world answer.
+
+8) Correct.

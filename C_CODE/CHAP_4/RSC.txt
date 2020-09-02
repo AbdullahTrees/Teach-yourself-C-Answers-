@@ -1,0 +1,43 @@
+Review Skills Check - Chapter 4 - 5/6
+-------------------------------------------------------MY ANSWERS----------------------
+
+1) >_> I already did this in Chapter 3, it's the exact same thing reeeeee
+
+2) switch (ch)
+	case 'L': load(); break;
+	case 'S': save(); break;
+	case 'E': enter(); break;
+	case 'D': display(); break;
+	case 'Q': quit(); break;
+
+3) Done in RSC-3.C and RSC-3.exe
+
+4) The break statement exits a loop immediately when it encountered, without testing the conditional test. If encountered in a switch-case, it exits the switch statement.
+
+5) The continue statement is kind of like the opposite of a break statement, in the sense that when it is encountered, it restarts the loop from the beginning as if the loop ended at that instruction(skipping any instructions that were after it...) AND the conditional test was true,...
+
+6) Done in RSC-6.C and RSC-6.exe.
+
+
+----------------------------------CHECKING FROM ANSWERS AT THE BACK OF THE BOOK--------------------
+
+1) Understandable, have a nice day.
+
+2) OOOOPS you forgot the curly brackets around the switch statement. It should look like this
+	switch (ch)
+	{
+		case 'L': load(); break;
+		case 'S': save(); break;
+		case 'E': enter(); break;
+		case 'D': display(); break;
+		case 'Q': quit(); break;
+	}
+
+3) conio.h include missing, but still compiles as the compiler can guess the getche function. Also the book uses do-while... but yeah.. Correct
+
+4) Roughly same, but the book answer is so much better. Mostly correct.
+	The break statement causes immediate termination of the loop that contains it. It also terminates a statement sequence in a switch.
+
+5) Correct. Explained more than the book.
+
+6) Functionally identical, you declared less variables than the book did, used getche instead of scanf, so it all checks out. Correct.

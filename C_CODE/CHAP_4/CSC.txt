@@ -1,0 +1,20 @@
+Cumulative Skills Check - Chapter 4 - 5/6
+-------------------------------------------------------MY ANSWERS----------------------
+
+1) Thank you question, I forgot that you can't have two same cases in a switch... but I do remember that 'A' and 65 are essentially the same thing at the memory level, so this switch is INVALID
+
+2) char variables are smaller than the size of int variables, so any integer that returns smaller than the size of char will be the same as if it was char.
+
+3) This loop never terminates as i overflows once it increments above 32767, making it go down to -32767, which is less than 33000, and this continues on forever (i can never reach 33000 and become larger)
+
+----------------------------------CHECKING FROM ANSWERS AT THE BACK OF THE BOOK--------------------
+
+1) INVALID is right, Correct
+
+2) The reason that the return value of getchar() or getche() can be assigned to a char is because C automatically removes the high-order byte.
+
+3) Correct, 
+
+
+
+		welcome to chapter 5 woo

@@ -1,0 +1,29 @@
+Cumulative Skills Check - Chapter 5 - 5.5/6
+-------------------------------------------------------MY ANSWERS----------------------
+
+1) Done in CSC-1.C and CSC-1.exe
+
+2) Done in CSC-2.C and CSC-2.exe
+
+3) Done in CSC-3.C and CSC-3.exe
+
+4) getchar() only returns 1 character input, so the array index to which this character input will be stored must be defined. 
+
+In other words, str = getchar(); is invalid.
+
+5) Done in CSC-5.C and CSC-5.exe
+
+
+----------------------------------CHECKING FROM ANSWERS AT THE BACK OF THE BOOK--------------------
+
+1) The book uses string.h functions, while you did not. While your output is identical, it'd have been better to use string.h functions for practise as you never know when you might need them. Correct.
+
+2) Slightly different loop, but the book avoids creating another array and at the same time also uses less # of variables. Consider the book's one to be the better one, try compiling it. But because your output is expected.... Correct.
+
+3) Very similar programs... Correct
+
+4) Correctly identified that getchar returns a character input, but you should state that it DOES NOT return a string, and hence can't be used in this way.... Otherwise correct
+
+5) Not bad! Your program allows custom word setting and dynamic viewing array management, and also uses strcmp and the string header, Correct.
+
+Yoooooo my dawg we are in chapter 6 now, ayyy...

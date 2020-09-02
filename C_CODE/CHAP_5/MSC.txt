@@ -1,0 +1,30 @@
+Mastery Skills Check - Chapter 5 - 5.5/6
+-------------------------------------------------------MY ANSWERS----------------------
+
+1) An array is an ordered list of variables/data which can be accessed as a whole.
+
+2) No, the compiler does not warn on improper array accesses,
+
+3) Done in MSC-3.C and MSC-3.exe
+
+4) int items[] = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
+
+5) Done in MSC-5.C and MSC-5.exe
+
+6) Done in MSC-6.C and MSC-6.exe
+
+----------------------------------CHECKING FROM ANSWERS AT THE BACK OF THE BOOK--------------------
+
+1) An array is a list of like-type variables.
+
+	You forgot to say that all the variables/data in the array are of the same type, but other than that, it's correct
+
+2) Correct. Should mention that the code is definitely wrong tho.
+
+3) Very different approach, your one is quite more complex than the book, but hey, it works, so... Correct.
+
+4) Correct.
+
+5) Correct.
+
+6) Slightly different, but otherwise correct. Welcome to Chapter 6!

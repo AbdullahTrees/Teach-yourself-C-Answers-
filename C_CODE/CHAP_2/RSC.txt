@@ -1,0 +1,48 @@
+Review Skills Check - Chapter 2 - 9.5/10
+-------------------------------------------------------MY ANSWERS----------------------
+
+1) All programs must have main(). The program initializes and starts following the first instructions from main().
+
+2) Done, Check RSC-2.C and RSC-2.exe
+
+3) We type the following line to tell the compiler we want TEST.H as a header file at the very beginning of the code.
+
+#include <TEST.H>
+
+4) float, int, char, double and void
+
+5)	a - valid
+	b - invalid because a variable name can't start with a number
+	c - invalid cause a variable name can't contain symbols
+	d - valid
+	e - invalid cause a variable name can't contain symbols
+
+6) scanf() is used to take inputs from the command prompt and store them inside variables.
+
+7) Done, Check RSC-7.C and RSC-7.exe
+
+8) Comments are entered by adding /* and */ before and after the comment. For example,
+
+/* this is a comment and here I can type whatever I want */
+
+9) The function has to exit with the following instruction 
+
+	return 'value';
+Whatever encapsulates this 'value' is then the value that is returned to the routine that called it.
+
+10) Prototype of Myfunc()
+
+	void Myfunc(int count, float balance, char ch);
+
+----------------------------------CHECKING FROM ANSWERS AT THE BACK OF THE BOOK--------------------
+
+1) Correct
+2) Expected Output, slightly different approach. Consensus: Correct
+3) #include is called a 'Compiler directive' and you should remember that, other than that correct. Example correct.
+4) Correct
+5) Correct
+6) scanf() function is used to take input information *from the keyboard*. Consensus: Almost Correct(75%) as the initial answer implies that mouse inputs would be possible, which is false
+7) Expected Output, different approach. Consensus: Overengineered but correct.
+8) Correct Example and answer
+9) Correct 
+10) Correct

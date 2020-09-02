@@ -1,0 +1,20 @@
+#include <stdio.h>
+#include <conio.h>
+
+int main(void)
+{
+	float gallon;
+
+	printf("\nThis program converts (US) gallons to liters. ");
+
+
+	do
+	{
+		printf("Enter number of gallons: ");
+		scanf("%f", &gallon);
+		printf("\n%f gallons is %f liters.\n", gallon, gallon*3.7854);
+	}
+	while (gallon != 0.0)
+
+	return 0;
+}

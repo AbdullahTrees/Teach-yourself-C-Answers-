@@ -1,0 +1,10 @@
+#include <stdio.h>
+
+int main(void)
+{
+	int number;
+
+	printf("This is the number %d. ", number);
+
+	return 0;
+}

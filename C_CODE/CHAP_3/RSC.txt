@@ -1,0 +1,31 @@
+Review Skills Check - Chapter 3 - 9.5/10
+-------------------------------------------------------MY ANSWERS----------------------
+
+1) Relational operators are used to compare the sizes of two values: >, <, <=, >=, ==
+   Logical operators are used to compare two values: &&(and), ||(or), !(not)
+	P&&Q = P AND Q = Is both P and Q true?
+	P||Q = P OR Q = Is either P or Q true?
+	!P = NOT P = If P is true, then !P will be false, and vice versa.
+
+
+2) A block of code is a series of statements encapsulated by curly brackets - {}. It is an indivisible logical unit, meaning all instructions within it will execute sequentially.
+
+3) Use the '\n' character constant. 
+
+4) Done in RSC-4.C and RSC-4.exe
+
+5) Done in RSC-5.C and RSC-5.exe
+
+6) count++;
+
+7) All non-zero values are true, 0 is false
+
+----------------------------------CHECKING FROM ANSWERS AT THE BACK OF THE BOOK--------------------
+
+1) Correct, but too much info
+2) Should word it like: A block of code is a group of logically connected statements. (but otherwise Correct)
+3) Correct.
+4) Correct.
+5) Different outputs(duh) and mechanisms to prevent wrong number input. Consensus: Correct.
+6) Correct, but ++count; is also correct 
+7) Correct. 

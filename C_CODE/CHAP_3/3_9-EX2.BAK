@@ -1,0 +1,26 @@
+/*Welcome to a very difficult challenge from the book: Letter/Number counter!*/
+#include <stdio.h>
+#include <conio.h>
+
+int main(void)
+{
+	char ch;
+
+	printf("\nEnter a passage. This program will count the number of letters, punctuation marks and digits present in the passage. Press Enter to finish: ");
+
+	do
+	{
+		ch = getche();
+
+		switch (ch)
+		{
+			case 'a': case 'b': case 'c': case 'd': case 'e': case 'f': case 'g': case 'h': case 'i': case 'j': case 'k': case 'l': case 'm': case 'n': case 'o': case 'p': case 'q': case 'r': case 's': case 't': case 'u': case 'v': case 'w': case 'x': case 'y': case 'z':
+			printf("success!");
+			break;
+
+		}
+
+	}
+	while (ch != '\r');
+
+}

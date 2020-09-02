@@ -1,0 +1,41 @@
+Review Skills Check - Chapter 5 - 5.5/6
+-------------------------------------------------------MY ANSWERS----------------------
+
+1) A global variable can be used anywhere in the program, a local variable may only be used in the function/scope in which it is declared.
+
+2) 	a) int
+	b) int
+	c) double
+	d) long int
+	e) (signed) long int
+
+3) Done in RSC-3.C and RSC-3.exe
+
+4) A type cast temporarily changes the data type of the constant/variable/expression it is appended to 
+
+5) The else is associated with the second if. In general, an else statement is associated with the if statement preceding it. 
+
+6) Since there is no `break` after `case 1:`, the value of a is 2 when i = 1
+Similarly, the value of a is 5 when i = 4
+
+
+
+----------------------------------CHECKING FROM ANSWERS AT THE BACK OF THE BOOK--------------------
+
+1) Missed points:	- A local variable is created upon entering a function/scope and destroyed upon exit.
+			- A global variable remains in existence for the entire duration of the program's existence
+Otherwise correct
+
+2) 	a) Correct
+	b) Correct
+	c) Correct
+	d) Correct
+	e) Correct.
+
+3) Differences in output, but otherwise correct.
+
+4) Correct!
+
+5) The else is associated with the `if(j)` statement... Correct!
+
+6) Correct.

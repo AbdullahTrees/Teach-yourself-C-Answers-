@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+int main(void)
+{
+	char dummyvar;
+	float weight_in_kg;
+
+	printf("Wanna know how much you weigh on the Moon? [Y/N] ");
+	scanf("%c", &dummyvar);
+
+	printf("Ofc you do! Why else would you open this little program? Let's start by telling us your weight(Kilograms/Pounds, numbers only) on earth! Don't be shy! I promise I'll keep it a secret! ");
+	scanf("%f", &weight_in_kg);
+
+	printf("Well, you'd weigh only %f if you were to go the Moon now! That's amazing isn't it? You aren't overweight, you're just on the wrong planet! ", weight_in_kg * 0.17);
+
+	return 0;
+}

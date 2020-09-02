@@ -1,0 +1,17 @@
+#include <stdio.h>
+#include <conio.h>
+
+int main(void)
+{
+	int i;
+	char ch;
+
+	for(ch=getche(); i<11; i++)
+	{
+		while(ch!=0)
+		{
+			printf(".");
+			ch--;
+		}
+	}
+}

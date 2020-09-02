@@ -1,0 +1,17 @@
+Cumulative Skills Check - Chapter 3 - /4
+-------------------------------------------------------MY ANSWERS----------------------
+
+1) Done in CSC-1.C and CSC-1.exe
+
+2) Done in CSC-2.C and CSC-2.exe
+
+----------------------------------CHECKING FROM ANSWERS AT THE BACK OF THE BOOK--------------------
+
+1) Same do-while loop used, which raises efficiency by decreasing one getche();, nice. Correct.
+
+2) All 3 improvements have been applied, Correct.
+
+
+
+
+Welcome to Chapter 4, kids!

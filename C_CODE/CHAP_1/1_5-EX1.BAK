@@ -1,0 +1,25 @@
+#include <stdio.h>
+
+int main(void)
+{
+	float x, y, z;
+
+	printf("PLEASE HELP!");
+	printf("OUR PROCESSOR IS RUNNING TOO FAST AND NEEDS TO WASTE SOME CYCLES!!!");
+	printf("GIVE US THE SIDES OF A CUBOID!");
+	printf("WE WILL ASK CPU-kun TO CALCULATE THE VOLUME, THEREBY DISTRACTING IT!");
+	printf("(See!!! It's so fast that it's typing so much text out instantly!)");
+	printf("WAT ARE YOU WAITING FOR QUICK!!! SIDES OF A CUBOID NOW!!!");
+	scanf("%f", x);
+
+	printf("GOOD!!! Two more sides!!");
+	scanf("%f", y);
+
+	printf("MMmmmMMmmM! The CPU is slowing down already!! Just one more side!");
+	scanf("%f", z);
+
+	printf("WHEW!!! That was reallllly close, we managed to slow down the CPU by 19 nanoseconds!");
+	printf("You're a real hero! Thank you so much!!!");
+
+	printf("... wait... You actually wanted to know the volume of the Cuboid? Oh.. It's just %f", x*y*z);
+}

@@ -1,0 +1,22 @@
+#include <stdio.h>
+
+float convert(void);
+
+float dollars;
+float pounds;
+
+int main(void)
+{
+	printf("Hello I will convert dollars($) to pounds(). Gimme! ");
+	scanf("%f", &dollars);
+	convert();
+	printf("%f dollars is %f pounds. Bye!", dollars, pounds);
+
+	return 0;
+
+}
+
+float convert(void)
+{
+	pounds = 2.0 * dollars;
+}

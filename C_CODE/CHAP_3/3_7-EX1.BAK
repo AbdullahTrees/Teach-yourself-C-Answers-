@@ -1,0 +1,32 @@
+#include <stdio.h>
+#include <conio.h>
+
+int main(void)
+{
+	int n = 0;
+	int m = 1;
+	char ch;
+
+	printf("Printing fibonacci numbers forever... Hold Enter to generate and Q to quit.\n\n");
+	getche();
+
+	while (1)
+	{
+		printf("%d\n", n);
+		m = m + n;
+		printf("%d\n", m);
+		n = n + m;
+
+		if (m<0 && n<0)
+		{
+			n = 0;
+			m = 1;
+		}
+
+		ch = getche();
+		if (ch=='q')
+			break;
+	}
+
+	return 0;
+}

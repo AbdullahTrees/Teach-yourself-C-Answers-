@@ -1,0 +1,43 @@
+Master Skills Check - Chapter 3 - /
+-------------------------------------------------------MY ANSWERS----------------------
+
+1) Done in MSC-1.C and MSC-1.exe
+
+2) Done in MSC-2.C and MSC-2.exe
+
+3) This is a valid for loop, but it has no initial and incremental statement
+
+4) while (1)
+	{<code>}
+
+5) a)	int i=1; while (i<11) {printf("%d", i); i++;}
+   b)	for (i=1; i<11; i++) printf("%d", i);
+   c)	int i=1; do {printf("%d", i); i++;} while (i<11)
+   d)	int i=1; loop: printf("%d", i); i++; goto loop; 
+
+6) If break; is present in a loop, it causes the loop to exit unconditionally.
+
+7) Yes, it is correct because break statements are only necessary to stop execution of other unrelated cases. Therefore the final case need not have break;
+
+8) No, it is not correct because the label is not correctly defined. It should be `alldone:`
+
+----------------------------------CHECKING FROM ANSWERS AT THE BACK OF THE BOOK--------------------
+
+1) Different mechanisms, and the program is more complicated than specifications, but it is nice and correct results. Consensus: Correct.
+
+2) placeholder
+
+3) Correct. It is valid,
+
+4) The book only states `for ( ; ; )` as a valid answer. Consensus: while (1) is completely identical to this, so it is also valid... Correct.
+
+5) a) Correct.
+   b) Correct.
+   c) Correct.
+   d) Consensus: Not in book, cause the book only asked for 3, but it is also valid. Correct.
+
+6) Correct. The break statement causes immediate termination of the loop.
+
+7) Correct. 
+
+8) Correct. No, the label is missing the colon.

@@ -1,0 +1,25 @@
+#include <stdio.h>
+
+main(void)
+{
+	int numarray[3][3][3];
+	int i, j, k, a=1, answer=0;
+
+
+	for (i=0; i<3; i++)
+	{
+		for (j=0; j<3; j++)
+		{
+			for (k=0; k<3; k++)
+			{
+				numarray[i][j][k] = a++;
+				printf("%d ", numarray[i][j][k]);
+				answer = answer + numarray[i][j][k];
+			}
+		}
+	}
+
+	printf("\nThe sum of the elements in this array is %d", answer);
+
+	return 0;
+}

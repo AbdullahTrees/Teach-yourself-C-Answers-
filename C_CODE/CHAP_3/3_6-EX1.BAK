@@ -1,0 +1,28 @@
+#include <stdio.h>
+#include <math.h>
+
+int main(void)
+{
+	int i, test, is_prime;
+
+	/*scanf("%d", &i);          loop tester*/
+	for(i=2; i<1000; i++)
+	{
+		is_prime=1;
+		for(test=2; test <= sqrt(i); test++)
+		{
+			if (!(i%test))
+			{
+				is_prime = 0;
+				break;
+			}
+		}
+
+		if (is_prime)
+		{
+			printf("%d is prime!!!\n", i);
+		}
+	}
+
+	return 0;
+}
