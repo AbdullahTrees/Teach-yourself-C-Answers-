@@ -1,6 +1,5 @@
 #include <stdio.h>
 #include <conio.h>
-#include <string.h>
 
 #define pwsize 80
 
@@ -9,28 +8,12 @@ void censored_input(char input[]);
 int main(void)
 {
 	 char pw_server[pwsize] = "Tristan", pw_client[pwsize] = "";
-	 int i, tries = 3;
+	 int i;
 
 	 printf("Impertigo Developer Controls\nPlease enter your credentials\nUsername: topkekasheck\n");
+	 censored_input(pw_client);
 
-	 while (tries > 0)
-	 {
-		censored_input(pw_client);
-
-		if (strcmp(pw_client, pw_server) == 0)
-		{
-			printf("\nLog-on Successful! Connecting you to the server...");
-			return 0;
-		}
-		else
-		{
-			tries--;
-			if (tries != 0)
-				printf("\nWrong password! Please try again... Attempts left: %d\n", tries);
-		}
-	 }
-
-	 printf("\nAccess Denied!!! Please try again later...");
+	 printf("\n%s", pw_client);
 	 return 0;
 }
 
