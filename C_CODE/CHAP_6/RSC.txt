@@ -15,4 +15,14 @@ Review Skills Check - Chapter 6 - /6
 
 ----------------------------------CHECKING FROM ANSWERS AT THE BACK OF THE BOOK--------------------
 
-1) 
+1) Correct.
+
+2) Impressive over-engineering as always(wait.. why am i praising myself...) but otherwise it fits the question specifications... So Correct.
+
+3) Correct.
+
+4) Correct, but this is to be disputed. The book says a null string is a string that contains only the null character, i.e. char string[10] = {0}, whereas "" is a string literal where the first index of the array is guaranteed to be 0(null).
+
+5) Correct, but you forgot to say that str2 and str1 must be strings (character, null-terminated arrays). 
+
+6) Correct.

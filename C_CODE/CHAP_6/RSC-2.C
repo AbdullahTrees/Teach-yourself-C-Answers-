@@ -9,7 +9,7 @@ void censored_input(char input[]);
 int main(void)
 {
 	 char pw_server[pwsize] = "Tristan", pw_client[pwsize] = "";
-	 int i, tries = 3;
+	 int tries = 3;
 
 	 printf("Impertigo Developer Controls\nPlease enter your credentials\nUsername: topkekasheck\n");
 
