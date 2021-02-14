@@ -1,0 +1,30 @@
+Mastery Skills Check - Chapter 6 - 5.5/6
+-------------------------------------------------------MY ANSWERS----------------------
+
+1) double *dp;
+
+2) Done in MSC-2.C and MSC-2.exe
+
+3) This fragment is wrong,
+	A character pointer has been declared, but it has not been assigned a suitable memory address. Hence gets() will write userinput into unrelated memory areas, which may potentially crash the system.
+
+4) Pointers and arrays are directly related to one another. A declared array's name is a pointer to the first index of that array.
+
+5) 	First way: *(p+2)
+	Second way: p[2] or str[2]
+
+6) 108
+
+----------------------------------CHECKING FROM ANSWERS AT THE BACK OF THE BOOK--------------------
+
+1) Correct.
+
+2) Correct. 
+
+3) Correct. 
+
+4) Pointers and arrays are basically two ways of looking at the same thing. They are virtually interchangeable.
+
+5) Correct. *(str+2) is also another possible answer
+
+6) Correct.
