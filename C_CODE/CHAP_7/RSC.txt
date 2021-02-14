@@ -1,0 +1,30 @@
+Review Skills Check - Chapter 7 - 6/6
+-------------------------------------------------------MY ANSWERS----------------------
+
+1) Stores 19 into the integer variable i.
+
+2) A pointer to the first index of the array is generated.
+
+3) This fragment is correct, as the compiler takes the string literal and stores it into the program's string table, while setting the char pointer p to point to this string.
+
+4) Done in RSC-4.C and RSC-4.exe
+
+5) Done in RSC-5.C and RSC-5.exe
+
+6) Yes the fragment is correct, and 'C' is displayed on the screen.
+
+----------------------------------CHECKING FROM ANSWERS AT THE BACK OF THE BOOK--------------------
+
+1) Correct. (stores 19 indirectly)
+
+2) Correct.
+
+3) Correct.
+
+4) Correct.
+
+5) Correct.
+
+6) Correct.
+
+Welcome to chaptar sevn!!!11

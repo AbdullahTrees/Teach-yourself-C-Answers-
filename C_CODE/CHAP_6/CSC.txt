@@ -1,0 +1,23 @@
+Cumulative Skills Check - Chapter 6 - 2/3
+-------------------------------------------------------MY ANSWERS----------------------
+
+1) In some applications, pointers are faster than array indexing. 
+	However in the modern age, compilers have become pretty smart to the point where both can be equally optimized by the compiler, so array indexing isn't that much slower anymore.
+
+2) Done in CSC-2.C and CSC-2.exe
+
+3) *(count + 44*10 + 8) = 99;
+
+----------------------------------CHECKING FROM ANSWERS AT THE BACK OF THE BOOK--------------------
+
+1) Pointers are also sometimes convenient, but otherwise correct
+
+2) Refactored code that does identically the same thing. Correct.
+
+3) An (int *) cast needs to be applied, you lack understanding behind how multidimensional arrays can be thought of as as a single array OF TYPE int [][]... Incorrect.
+	The correct answer is *((int *)count + 44*10 + 8) = 99;
+
+
+Whee, after studying a bit about type casts in multidimensional arrays, we can move on to 
+
+Chaptar sevun! yee

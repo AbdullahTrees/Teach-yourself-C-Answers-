@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+int main(void)
+{
+    char *pointer;
+    int i;
+
+    pointer = NULL;
+
+    for (i = 0; i < 255; i++)
+    {
+        printf("%p = %X\n", &pointer, *pointer);
+    }
+
+    return 0;
+}

@@ -1,0 +1,28 @@
+Review Skills Check - Chapter 6 - 6/6
+-------------------------------------------------------MY ANSWERS----------------------
+
+1) Done in RSC-1.C and RSC-1.exe
+
+2) Done in RSC-2.C and RSC-2.exe
+
+3) The string being assigned to 'name' is larger in size than what 'name' can hold [10 chars]
+
+4) A null string is a string that starts with the null character, i.e. char string[10]; string[0] = '\0' is a null string, "" is a null string, etc. 
+
+5) strcpy(str1, str2) copies the contents of str2 to str1, strcmp(str1, str2) compares the contents of str1 and str2, returning 0 if they are equal and non-zero values otherwise.
+
+6) Done in RSC-6.C and RSC-6.exe
+
+----------------------------------CHECKING FROM ANSWERS AT THE BACK OF THE BOOK--------------------
+
+1) Correct.
+
+2) Impressive over-engineering as always(wait.. why am i praising myself...) but otherwise it fits the question specifications... So Correct.
+
+3) Correct.
+
+4) Correct, but this is to be disputed. The book says a null string is a string that contains only the null character, i.e. char string[10] = {0}, whereas "" is a string literal where the first index of the array is guaranteed to be 0(null).
+
+5) Correct, but you forgot to say that str2 and str1 must be strings (character, null-terminated arrays). 
+
+6) Correct.
