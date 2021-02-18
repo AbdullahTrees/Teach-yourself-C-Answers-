@@ -1,0 +1,20 @@
+Cumulative Skills Check - Chapter 6 - /4
+-------------------------------------------------------MY ANSWERS----------------------
+
+1) Done in CSC-1.C and CSC-1.exe
+
+2) Done in CSC-2.C and CSC-2.exe
+
+3) Done in CSC-3.C and CSC-3.exe
+
+4) Pointers allow a function to be passed the address of a variable so that the function can directly modify the variable that the address of which is being passed to it, instead of a copy of the value. This is called a call-by-reference parameter.
+
+----------------------------------CHECKING FROM ANSWERS AT THE BACK OF THE BOOK--------------------
+
+1) 
+
+2) 
+
+3) 
+
+4) Somewhat correct, the book explains it more formally. Meh...
