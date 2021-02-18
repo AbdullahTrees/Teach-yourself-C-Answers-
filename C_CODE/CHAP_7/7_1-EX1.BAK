@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+double avg();
+
+int main(void)
+{
+	float val[10];
+	int i;
+
+	printf("Enter 10 floating point values: ");
+	for (i=0; i<10; i++)
+		scanf("%f", &val[i]);
+
+	printf("\n\nThe average of these 10 values is %lf"avg(
+}
+
+double avg(float *values);

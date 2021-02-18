@@ -1,0 +1,45 @@
+Mastery Skills Check - Chapter 7 - /9
+-------------------------------------------------------MY ANSWERS----------------------
+
+1) Use keyword 'void' in the parameter list
+
+2) A function prototype is a declaration of the function's return type and types of the parameters without the code body, declared at the beginning of the file. It is used to let the compiler know of the return types/types of the parameters of the function, so the compiler knows that the function is being called with invalid arguments.
+
+In the modern era, a compiler no longer needs prototypes to compile a program properly, so it serves as a table of contents to quickly view all the available functions in a file.
+
+3) Command-line arguments get passed down to a program as a set of string literals, with the pointers to every string being stored in an array called 'argv'.
+
+4) Done in MSC-4.C and MSC-4.exe
+
+5) Done in MSC-5.C and MSC-5.exe
+
+6) double myfunc(int x, int y, char ch);
+
+7) double myfunc(x, y, ch)
+	int x, y;
+	char ch;
+	{  /* code */}
+
+8) exit(a) causes the program to exit with return code integer a.
+
+9) atoi(str) converts the character pointer str into an integer and returns it.
+ 
+----------------------------------CHECKING FROM ANSWERS AT THE BACK OF THE BOOK--------------------
+
+1) Correct.
+
+2) You forgot that the compiler is also told the number of arguments, by a prototype...  
+
+3) Correct...
+
+4)
+
+5) 
+
+6) Correct.
+
+7) Correct.
+
+8) Correct.
+
+9) Should also mention that it returns 0 in the case of a malformed string.
