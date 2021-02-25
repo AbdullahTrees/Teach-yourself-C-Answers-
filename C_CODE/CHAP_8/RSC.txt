@@ -1,0 +1,40 @@
+Review Skills Check - Chapter 8 - /7
+-------------------------------------------------------MY ANSWERS----------------------
+
+1) Declare a function prototype at the beginning of the file
+
+2) Allows the compiler to know the return types of the function and its arguments, and the number of arguments. This prevents a function from being called with inappropriate arguments.
+
+3) Done in RSC-3.C and RSC-3.exe
+
+4) void
+
+5) Done in RSC-5.C and RSC-5.exe
+
+6) Done in RSC-6.C and RSC-6.exe
+
+7) void func()
+int a;
+char ch; 
+double d;
+{/*enter function code here*/}
+
+
+----------------------------------CHECKING FROM ANSWERS AT THE BACK OF THE BOOK--------------------
+
+1) Correct.
+
+2) * (better wording) Provide stronger type checking between the arguments used to call a function and the parameters of a function
+ otherwise Correct.
+
+3) Correct.
+
+4) Correct.
+
+5) Correct.
+
+6) Correct.
+
+7) Correct.
+
+yee! End of the book here I come... (baka, its still 4 chapters away)

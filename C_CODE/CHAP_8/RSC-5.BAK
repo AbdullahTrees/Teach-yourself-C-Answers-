@@ -1,0 +1,22 @@
+#include <stdio.h>
+
+int main(void)
+{
+	char str[] = "this test";
+
+	printf("Length of string \"this test\" is: %d", rstrlen(str));
+
+	return 0;
+}
+
+int rstrlen(char *stringy_pingy)
+{
+	if (*stringy_pingy)
+	{
+		return rstrlen(stringy_pingy + 1) + 1;
+	}
+	else
+	{
+		return 0;
+	}
+}

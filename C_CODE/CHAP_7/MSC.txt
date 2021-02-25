@@ -32,9 +32,10 @@ In the modern era, a compiler no longer needs prototypes to compile a program pr
 
 3) Correct...
 
-4)
+4) Hm, the the recursive function is a bit complicated, but it works, so, Correct.
 
-5) 
+5) Using malloc to dynamically create space for a variable sized array and then modifying it was overkill. The book has a simple but elegant solution of just adding one to printf() function during the rendering loop. Your program, while achieving the same goal as the book's, uses up more system resources and is more unnecessarily complex code. 
+	Tori naoshi (do it again)
 
 6) Correct.
 

@@ -11,10 +11,10 @@ Cumulative Skills Check - Chapter 6 - /4
 
 ----------------------------------CHECKING FROM ANSWERS AT THE BACK OF THE BOOK--------------------
 
-1) 
+1) Correct.
 
 2) 
 
-3) 
+3) Book prints the average value within the function, but yours returns the average value from the exit of a function. Correct.
 
 4) Somewhat correct, the book explains it more formally. Meh...

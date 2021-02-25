@@ -1,0 +1,18 @@
+#include <stdio.h>
+
+int main(void)
+{
+	char ch;
+	do
+	{
+		ch = getchar();
+		if (ch == EOF)
+			printf("Catastrophic error! getchar() has failed...");
+
+		if (putchar('.') == EOF)
+			printf("Catastrophic error! putchar() has failed...");
+	}
+	while (ch != '\n');
+
+	return 0;
+}
