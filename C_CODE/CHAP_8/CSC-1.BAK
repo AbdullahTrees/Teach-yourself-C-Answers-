@@ -1,0 +1,38 @@
+#include <stdio.h>
+
+int main(void)
+{
+	char players[9][30];
+	double bat_avg[9], team_avg = 0;
+	int i, highest_index, lowest_index;
+
+	printf("Enter batting averages for players on a Little League team: \n");
+
+	for(i = 0; i < 9; i++)
+	{
+		printf("Enter first name of player #%d: ", i+1);
+		scanf("%25s", players[i]);
+
+		printf("Enter batting average for this player: ");
+		scanf("%lf", bat_avg[i]);
+		putchar('\n');
+
+		team_avg = team_avg + bat_avg[i];   // team average is necessary later on and requires a 0-8 loop cycle, so why not do it now?
+	}
+	team_avg = team_avg / i; // i is 9 now lel
+
+	// Problem: Find the highest and lowest double number in a given array
+	// why not carry over the previous value of i kekekekek
+	for(highest_index = 0, lowest_index = 0, i--; i != 0; i--)
+	{
+		if (bat_avg[highest_index] < bat_avg[i])	highest_index = i;
+		if (bat_avg[lowest_index] > bat_avg[i])	lowest_index = i;
+	}
+
+	printf("\nPlayer with highest average: %s, with an average of %lf", players[highest_index], bat_avg[highest_index]);
+	printf("\nPlayer with lowest average: %s, with an average of %lf", players[lowest_index], bat_avg[lowest_index]);
+
+	printf("\n\nTeam batting average is %lf", team_avg);
+
+	return 0;
+}

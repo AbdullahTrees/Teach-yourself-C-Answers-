@@ -1,0 +1,87 @@
+/*
+	WOOOOOO!! TIEM TO MEK MY OWN PROGRAZMZ for MUH OWN OS WHEEEEE
+
+	Program8 to copy text files from one to another...
+	 - includes flags to see transfer occur through stdout.
+*/
+#include <stdio.h>
+#include <conio.h>
+#include <string.h>
+
+int main(int argc, char *argv[])
+{
+	FILE *sourcefile, *destfile;
+	char ch;
+	int k, enable_watch = 0;
+
+	// Splash
+	printf("\nSimple Text-Mode File Copier: Copies text files");
+
+	// Improper argument count
+	if (argc != 4 && argc != 3)
+	{
+		wrong_usage:
+		printf("\nUsage: %s <source> <destination> [-w]\nOptional flags: -w/-watch = relays transfer to stdout, allowing you to see what is being copied real time.", argv[0]);
+		return 1;
+	}
+
+	// taking care of flag arguments
+	if (argc == 4)
+		if (strcmp(argv[3], "-w") == 0 || strcmp(argv[3], "-watch") == 0)
+			enable_watch = 1;
+		else
+			goto wrong_usage;
+
+	// Main Program Sequence
+	sourcefile = fopen(argv[1], "r");
+
+	printf("\nWARNING: If the destination file already exists, it will be overwritten, do you want to proceed? (Y/N) ");
+	do
+	{
+		ch = getche();
+		switch (ch)
+		{
+			case 'y': case 'Y':
+				break;
+			case 'n': case 'N':
+				return 0;
+
+			default:  // doesn't matter lel
+				break;
+		}
+	}
+	while (ch != 'Y' && ch != 'y' && ch != 'n' && ch != 'N'); // this is so cringe, a goto would've been simpler here PLS HALP
+	
+	destfile = fopen(argv[2], "w");
+	
+	if (sourcefile == NULL)
+	{
+		printf("\nError reading file: Are you sure the file exists?\nThe program tried to access %s.", argv[1]);
+		return 5;
+	}
+	if (destfile == NULL)
+	{
+		printf("\nError creating file: The program tried to access %s but failed to do so.", argv[2]);
+		return 10;
+	}
+
+	if (enable_watch)
+		putchar('\n'), putchar('\n');
+	printf("\nBeginning copying\n\n");
+
+	while ((ch = fgetc(sourcefile)) != EOF)
+	{
+		if (fputc(ch, destfile) == EOF)
+		{
+			printf("Error pushing character %c to destination file!\t", ch);
+		}
+		//if (enable_watch)
+			putchar(ch);
+	}
+	fclose(sourcefile);
+	fclose(destfile);
+	printf("Copying Complete!");
+
+
+	return 0;
+}

@@ -1,0 +1,51 @@
+#include <stdio.h>
+
+int main(void)
+{
+	char str[80] = "This is a file system test.\n";
+	FILE *fp;
+	char *p;
+	int i;
+
+	/* open myfile for output */
+	fp = fopen("myfile", "a");      // "w" will destroy preexisting data, "a+" will not destroy preexisting data
+	if (fp == NULL)
+	{
+		printf("Cannot open file.\n");
+		return 1;
+	}
+
+	/* write str to disk */
+	p = str;
+	while (*p)
+	{
+		i = fputc(*p, fp);         // man fputc is wierd... how come the file pointer is the same?
+		if (i == EOF)
+		{
+			printf("Error writing file.\n");
+			return 2;
+		}
+		p++;
+	}
+	fclose(fp);
+
+	/* open myfile for input */
+	fp = fopen("myfile", "r");
+	if (fp == NULL)
+	{
+		printf("Cannot open file.\n");
+		return 1;
+	}
+
+	/* read back the file */
+	while (1)
+	{
+		i = fgetc(fp);
+		if (i == EOF)
+			break;
+		putchar(i);
+	}
+	fclose(fp);
+
+	return 0;
+}

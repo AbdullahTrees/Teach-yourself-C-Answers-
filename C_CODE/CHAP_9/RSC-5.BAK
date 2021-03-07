@@ -1,0 +1,9 @@
+#include <stdio.h>
+
+int main(void)
+{
+	char str[80];
+
+	print("Enter some numbers and then a string, I'll ignore the numbers: ");
+	scanf("[0-9]%70s", str);
+}

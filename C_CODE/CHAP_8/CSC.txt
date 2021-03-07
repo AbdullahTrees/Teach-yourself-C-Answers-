@@ -1,0 +1,27 @@
+Cumulative Skills Check - Chapter 8 - 2/2
+-------------------------------------------------------MY ANSWERS----------------------
+
+1) Done in CSC-1.C and CSC-1.exe
+
+2) Done in CSC-2.C and CSC-2.exe
+
+----------------------------------CHECKING FROM ANSWERS AT THE BACK OF THE BOOK--------------------
+
+1) Correct.
+
+2) Hmmm.....
+	Hmm.......
+	Hmmmmmmmmmmmm.....................
+	
+	Well, truly the book's design is quite nice although it does some erratic things like using gets() for single character input followed by atoi, 
+	While technically correct, your program's design could be better. Try splitting the main() function into smaller functions like display() for displaying book data, and enter() and search() for entering book data and searching book data.
+	
+	But technically correct, so...
+	Correct.
+	
+Welcome to file input/output, the coolest chapter in C hue hue hue hue hue...
+
+
+
+
+hue!

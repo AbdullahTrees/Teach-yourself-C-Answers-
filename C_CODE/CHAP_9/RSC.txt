@@ -1,0 +1,25 @@
+Review Skills Check - Chapter 9 - 4/5
+-------------------------------------------------------MY ANSWERS----------------------
+
+1) getchar() is line-buffered, but getche() is not(it's interactive).
+
+2) scanf()'s %s stops if it receives a space, tab, or newline character. This makes it very hard to implement inputting strings that have spaces like "this is a cool cat" (bad wording I know, but meh)
+
+3) Done in RSC-3.C and RSC-3.exe
+
+4) Done in RSC-4.C and RSC-4.exe
+
+5) Done in RSC-5.C and RSC-5.exe
+
+----------------------------------CHECKING FROM ANSWERS AT THE BACK OF THE BOOK--------------------
+
+1) Also point out that getchar() is defined by ANSI but getche() is not defined by ANSI, otherwise correct
+
+2) Correct.
+
+3) Correct.
+
+4) Correct.
+
+5) This is quite the dilemma. We cannot arrive at a conclusive proper answer.
+

@@ -1,0 +1,35 @@
+Mastery Skills Check - Chapter 8 - /7
+-------------------------------------------------------MY ANSWERS----------------------
+
+1) 	getchar() - same as getche() but it's line buffered
+	getche() - returns the ASCII value of the key pressed as soon as any key is pressed, and then prints the character typed on the screen.
+	getch() - same as getche(), but it does not print the character typed on the screen
+
+2) Both print scientific notation in printf(), but %e causes the exponent character to be printed in small letters and %E causes the exponent character to be printed in large letters
+
+3) A scanset is a list of characters which can be allowed to be input into a variable/array through scanf(). 
+
+4) Done in MSC-4.C and MSC-4.exe
+
+5) puts() is faster than printf() so it can be used to output unformatted strings quickly. However, puts() automatically puts in a newline character at the end of every string output.
+
+6) Done in MSC-6.C and MSC-6.exe
+
+7) EOF means 'End of File' and it is a macro that is defined in stdio.h
+
+----------------------------------CHECKING FROM ANSWERS AT THE BACK OF THE BOOK--------------------
+
+1) Correct.
+
+2) Alternate wording, Correct.
+
+3) Not properly explained. 
+	A scanset is a set of characters that scanf() matches with input. As long as the characters are being read are part of the scanset, scanf() continues to input them	 into the array pointed to by the scanset's corresponding argument.
+
+4) A little bit over the top but Correct.
+
+5) Mention that puts() is smaller. puts() DOES NOT automatically put in a newline at the end of every string output. Wrong.
+
+6) Correct.
+
+7) Correct.

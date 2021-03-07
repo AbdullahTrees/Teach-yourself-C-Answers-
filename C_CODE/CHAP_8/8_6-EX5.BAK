@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+int main(void)
+{
+	unsigned long int hexa;
+
+	printf("Hexadecimal(capital) to decimal/octal converter! Enter a hexadecimal number only (like A2): ");
+	scanf("%x", &hexa);
+
+	printf("Decimal representation: %lu\nOctal representation %lo", hexa, hexa);
+
+	return 0;
+}

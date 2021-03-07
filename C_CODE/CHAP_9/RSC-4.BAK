@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+int main(void)
+{
+	double d;
+	char ch;
+	char str[25];
+
+	printf("Enter a double number, then a character, and then a string no longer than 20 characters: ");
+	scanf("%lf %c %20s", &d, &ch, str);
+
+	return 0;
+}

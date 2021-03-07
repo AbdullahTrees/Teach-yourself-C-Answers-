@@ -1,4 +1,4 @@
-Cumulative Skills Check - Chapter 6 - /4
+Cumulative Skills Check - Chapter 7 - 3.5/4
 -------------------------------------------------------MY ANSWERS----------------------
 
 1) Done in CSC-1.C and CSC-1.exe
@@ -13,7 +13,7 @@ Cumulative Skills Check - Chapter 6 - /4
 
 1) Correct.
 
-2) 
+2) Correct, although the use of malloc is taking it too far, you are lucky the book only asks for a demonstration of the string_up() and so you are free to do it however you want...
 
 3) Book prints the average value within the function, but yours returns the average value from the exit of a function. Correct.
 
